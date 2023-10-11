@@ -1,0 +1,47 @@
+Windows 11 – the latest operating system by Microsoft will become available from 5 October 2021. Windows 11 is coming up with a number of features with a fresh new design and layout, multitasking capabilities, improvements in Microsoft Teams, and support for gaming and Android apps. One of the phenomenal features of Windows 11 is ‘Snap Layouts and Groups’. Snap Groups would help users multitask and organize multiple window apps on the screen. Now on one monitor, you can easily access the apps without excessive switching.
+
+Snap Layouts 
+With virtual desktops in Windows 11, Snap Layouts allow you to maximize productivity by structuring the screen. Snap Layouts are the flyout that displays a number of Snap layouts options when you hover your mouse on the ‘Maximize’ window button of the apps’ window. According to leaked information of the Windows 11 beta version, the options of different snap layouts available vary based on the display’s physical properties.
+
+Ultra-wide displays have more layout options as compared to traditional/standard displays. You would need to create a Snap Layout before a Snap Group. Choose the apps in each box of the layout to adjust it according to your liking and work requirements. 
+
+How do Snap Layouts work?
+Snap Layouts work as follows:
+
+Open all the programs you want to work on. 
+Pull one window to the front of the screen and hover your mouse on the Maximize button (on the top-right and second from the left).
+You will see six layout options to snap your open windows from which you can choose one. These snap layouts are:
+Two windows at an even length
+Two windows with one bigger side
+Three vertical windows at even length
+Four windows in a grid
+Three windows with one side bigger
+After choosing one Snap Layout, you can tile the opened programs in each section available in the layout according to your choice. 
+After this, your screen will be organized and you can get easy access to multiple apps.
+Snap Groups
+Windows 11 new feature, Snap Groups are the set of open programs that you adjusted and saved in the Snap Layouts. You can see the app individually and in layout as well in the taskbar. Snap Groups make access to all multiple programs easy. A visually clean interface allows you to multitask and increase productivity at work.
+
+Smart Layouts – SmartWindows
+SmartWindows introduces a special feature ‘Smart Layouts’ specifically for Windows 11. Smart Layouts allow you to restore the Snap Layouts with one click. They help restore the Windows positioning and Window sizes according to the layout you saved previously. SmartWindows saves the screen configuration you create on manual arrangement of apps or using Snap Layouts. 
+
+SmartWindows supports auto-restoration capability in unlimited profiles and up to 6 displays. 
+
+Create your work zone once and you can restore it anytime on one or many screens. SmartWindows empowers your productivity at work in Windows 11. It saves your time for making Snap Layouts again every time you get started on work. You can pull your presets anytime for study, work, or entertainment. Make your Windows snapping more powerful with the fusion of Windows 11 and SmartWindows.
+
+Snap Layouts vs Smart Layouts
+Snap Layouts is one exclusive feature of Windows 11 updates that allows you to organize multiple desktop apps into the given layouts. It provides you access to a unified interface where you can easily switch between the applications. A fish-eye view of all apps and an organized work zone allow you to work efficiently on multiple windows. However, in Snap Layouts, you can not overlap one window over the other. On resizing, the other windows adjust their size accordingly.
+
+Smart Layouts, on the other hand, give your Windows 11 capability to restore the Snap Groups anytime. All you need to do is save the screen configuration once you have created the Snap Groups. You can create separate Snap Groups on multiple products and displays. SmartWidnows allows you to restore the entire Snap Groups with one click. Contrary to Snap Groups, you can manually arrange apps on screen, overlap, and save screen configuration that you can restore anytime.
+
+SmartWindows fully supports your Windows 11 with the following features:
+
+Restore Snap Groups with Smart Layouts.
+Arrange and adjust multiple apps on a screen, save, and restore anytime.
+Remember the size and position of the window of each app.
+Restore multiple browsers and tabs with respective URLs.
+Restore MS Office files such as Word, Excel, PowerPoint, and Project, etc.
+Intelligent app positioning and restoration.
+Create and save Snap Groups on multiple displays and profiles.
+So get Smart Layouts by SmartWindows to boost your productivity along with Windows 11 Snap Layouts!
+
+Get the app now with a 30-day free trial!

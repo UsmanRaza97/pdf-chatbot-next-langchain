@@ -1,0 +1,106 @@
+Is your Windows 11 upgrade causing your laptop’s WiFi to keep dropping and reconnecting? This situation can be incredibly exasperating, leading to an unstable internet connection and hindering your ability to browse websites seamlessly. Many users who switched to Windows 11 are experiencing an issue with their laptop’s WiFi disconnecting, disrupting their internet access. 
+
+Interestingly, this issue persists even when the network is well within range, leaving users perplexed as to why their WiFi connection disconnects and fails to reestablish itself promptly. You’re not alone if your laptop’s WiFi keeps disconnecting and reconnecting. In this blog, we’ll discuss why Windows WiFi keeps disconnecting and how to solve it. So, let’s get started! 
+
+Why Windows 11 Keep Disconnecting from WiFi
+Are you frustrated by your Windows 11 WiFi connection constantly dropping? Here are some possible explanations for why this issue could be occurring:
+
+File System Corruption
+The specter of file system corruption might shadow your Windows 11 experience. Users who have embraced this new iteration may encounter WiFi disconnections. A clean install can fix the problem, as explained in this article.
+
+DNS Dilemma
+DNS issues can cause WiFi problems in Windows 11. Check your DNS settings and try a different DNS server if you’re having problems connecting to WiFi. An imperative emerges the upholding of DNS consistency. Failure to heed this call might necessitate configuring your present DNS settings.
+
+The Network Card Conundrum
+The network card is the unsung hero of your computer. It connects you to the internet and makes your WiFi work. Alas, the curtain might rise on connection issues stemming from an ailing network card, causing the disconnect you’re contending with.
+
+TCIP and DHCP Duress 
+When multiple devices are connected to WiFi, there can be problems with the TCP/IP and DHCP settings. This can cause WiFi problems on your Windows 11 computer.
+
+Solutions to Fix Windows 11 Frequent Wifi Disconnection 
+If your Windows 11 PC keeps disconnecting from Wi-Fi, there are some basic things you can try before moving on to more complex solutions. To fix the problem, identify the cause. Here are the first steps to take:
+
+Activating and Deactivating Airplane Mode
+If you’re experiencing issues with your WiFi on Windows 11, one solution you could try is turning on and off Airplane mode. This can give your connection a quick and effective restart. 
+
+To quickly access the Action Center in Windows, simply press the Windows key and A at the same time. 
+Toggle Flight mode to turn off your wireless connections.
+Turn off Airplane mode.
+WiFi issues may be resolved, allowing your digital devices to connect again. Check your WiFi connection to see if your virtual world is back to normal.
+
+Forgetting and Reconnecting to Your WiFi Network
+If you’re experiencing connectivity issues with Windows 11, try forgetting and then reconnecting to your WiFi network. Here’s how:
+
+Access the Action Center by invoking Windows + A.
+Look at your WiFi icon and click on it.
+Forget WiFi connection.
+To start free, forget your WiFi network and reconnect to it.
+Enabling Automatic WiFi Connection
+If your Windows 11 device is having trouble connecting to your nearby WiFi, you can easily solve the issue by granting permission to auto-connect. Follow these steps to do so and enjoy seamless connectivity.
+
+Open the Action Center (Windows + A) and click on the WiFi icon.
+Click “WiFi Properties” for a digital tour of your connection.
+Turn on “Connect automatically when in range” for a seamless Windows 11 connection.
+Designating Your WiFi Network as Private
+To protect your WiFi network, make it private in Windows 11. Follow these steps:
+
+Press Windows+A to open the Action Center, then click on the WiFi icon.
+Go to WiFi Properties and find the digital tapestry for fortification.
+When you declare your WiFi private, you are protecting your digital space.
+Activating the WLAN AutoConfig Service in Windows 11
+To keep your WiFi running smoothly on Windows 11, it’s important to make sure the WLAN AutoConfig service is active. Follow these steps:
+
+Press Win + R to open Run, type services.msc, and press OK.
+Double-click WLAN AutoConfig to enable.
+To change the startup type of service to Automatic, follow these steps:
+
+Right-click the service in Services and select Properties.
+Select Automatic in Startup type.
+Click Start.
+Click OK.
+Updating Your WiFi Driver
+To keep your WiFi connection strong in Windows 11, update your WiFi driver regularly. Here’s how:
+
+Press Windows Key + X to open Device Manager.
+Explore network adapters in this digital domain. A tap reveals your WiFi drivers.
+Improve your Windows 11 WiFi connection with driver update.
+Keep searching for the latest drivers online to improve your WiFi.
+Updating your WiFi driver breathes new life into your Windows 11 WiFi connection.
+
+Modifying Power Management Settings 
+Windows 11 may disconnect your WiFi to save power. You can disable this in the following steps:
+
+Press Windows+X to open Device Manager, a powerful tool for managing your devices.
+Right-click WiFi drivers to access their properties.
+In the Power Management tab, uncheck “Allow the computer to turn off this device to save power” to keep your WiFi on.
+Adjusting Power Plan Settings 
+Windows 11 power plan settings affect your computer’s performance. Follow these steps to optimize performance:
+
+To customize your power plan, search for “Power plan” in Windows 11 and click “Edit power plan.“
+Optimize power plan in Advanced power settings.
+To maximize wireless adapter performance, choose “Maximum Performance” in the Wireless Adapter Settings and press “OK.”
+Resetting Network Settings in Windows 11
+When your Windows 11 network is having problems, reset it for a clean slate. Here’s how:
+
+Press Windows + I to open Windows Settings.
+Explore Network & Internet for advanced settings.
+Network reset is a digital rebirth. Take the plunge and start fresh.
+Running the Network Troubleshooter in Windows 11
+A troubleshooter can help you fix your internet connection. Here are some steps to follow:
+
+To access Troubleshoot settings, simply press the Windows key and type “Troubleshoot settings.” 
+To find solutions, select “Other troubleshooters” in this digital haven. 
+Use the “Internet Connections” troubleshooter to fix your Windows 11 internet connection.
+Conclusion 
+When you experience frustrating WiFi signal drops and disconnections on your Windows 11 system, there are several solutions you can try. First, toggle Airplane mode and reconnect to networks. You can also enable automatic connections and activate WLAN AutoConfig. Updating your WiFi drivers, adjusting power settings, resetting network configurations, and employing the troubleshooter can also help. Download SmartWindows: Your key to a smoother, more efficient Windows 11 experience. Elevate performance and streamline interactions with this essential app.
+
+FAQs
+How do I fix the Wi-Fi bug on Windows 11?
+Select Start > Settings > System > Troubleshoot > Other troubleshooters.
+Under Most frequent, choose Network & Internet > Run, or click the button below to launch the Network & Internet Get Help feature.
+Open Get Help for Network & Internet.
+Why does my computer keep disconnecting from the Wi-Fi for no reason?
+If your device keeps disconnecting from the internet for no apparent reason, it might be because of outdated software or glitches in the internal programming. The drivers that control your device’s WiFi connectivity can become obsolete or corrupted over time. Be on the lookout for these potential problems.
+
+Why does my laptop keep disconnecting from Wi-Fi when it goes to sleep?
+Windows may disable some devices to save battery life. Disable the power-saving mode to keep your wireless network adapter working. A faulty firmware or driver may also prevent your wireless network adapter from waking up from sleep mode. Make sure your drivers are up to date.

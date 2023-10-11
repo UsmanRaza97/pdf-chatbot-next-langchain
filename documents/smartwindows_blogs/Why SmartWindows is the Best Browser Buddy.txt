@@ -1,0 +1,70 @@
+Lost your entire browser session by accidentally clicking on ‘X’? 
+
+The majority of users open multiple browser windows or browser tabs while working on a project. The issue in this smooth workflow occurs when one loses the browser session by accidentally clicking on the ‘X’ button. It is an instant panic and all the user can do is look for solutions and steps to restore all tabs and save browser sessions at once. Multiple browsers have introduced multiple features for the easy restoration of the browser sessions.
+
+How to Restore Browser Tabs on Google Chrome?
+How to save a Chrome session, is a frequently asked question by many users. They find solutions to save Chrome sessions so that they don’t lose the informational browser tabs that they have found. This often requires them to keep bookmarks of all their opened tabs in case of an accidental crash. 
+
+However, to make the restoration process easier for them Google Chrome provides them with solutions to restore the last session in Chrome. 
+
+To Restore Browser Tabs in Google Chrome
+Click the three vertical dots in the upper right corner of the menu.
+Go to History and you’ll see the tabs you had opened in Chrome.
+Reopen the Chrome browser by clicking on the closed tabs.
+A new Chrome window session will begin, displaying all of your previously closed Chrome tabs. 
+Another Way to Restore Chrome Session Is
+Right-click anywhere on the empty space in the tab bar.
+Select ‘Reopen closed tab’ from the menu (If you’ve closed the browser window instead of the tab then it’ll display ‘Reopen Closed Window’)
+Upon selecting this option, your tab or browser window will be restored.
+How to Restore Previous Tabs in Microsoft Edge
+Users of Microsoft Edge Browser can restore their recently closed browser tabs. Microsoft Edge restores the previous session using any of the following methods. 
+
+By hitting Ctrl + Shift + T on your keyboard, you can simply restore the recently closed tab.
+Right-click on a tab and choose “Reopen Closed Tab” to bring up the previously closed tab.
+How to Restore Previous Session in Firefox
+Mozilla Firefox empowers its users to restore their browser tabs and browser sessions automatically and manually.
+
+To automatically restore your firefox tabs, you can follow the following steps
+
+In your browser window go to the tab bar and Right-click on it. A pop-up menu will appear and from there click ‘Undo Last Tab Close’.
+To reopen the last opened browser tabs, press the keyboard keys, ‘Ctrl + Shift + T’. 
+To Restore a Whole Browser Session
+Go to the ‘History’ icon in the menu button of the browser window and click on it.
+From the menu, click on the ‘Restore Previous Session Tab’ and your browser session will be restored.
+To Restore Previous Session of Firefox Manually,
+Go to the menu button in the upper right corner of the browser window.
+Select the ‘History’ icon from the drop-down menu.
+It will display all your previously opened browser tabs. 
+You can restore them manually by clicking on them one by one. 
+Reduce Time & Effort – Restore Browsers with One Click using SmartWindows 
+SmartWindows is a Windows productivity app for Windows 10 and 11, helps restore multiple browser tabs and browser sessions with a single click. 
+
+It empowers its users to create one-time profiles and save their preferred screen arrangement. Users are also enabled to restore that screen arrangement with one click reducing the time and manual labor exercised in reopening them.  
+
+How Does SmartWindows Work?
+Often while working on the multiple browser windows and browser tabs there is a risk of losing that information by accidentally clicking on ‘X’ or in case of a crash. To overcome this fear you can save all your multi-session browsers in a SmartWindows profile. 
+
+SmartWindows profile saves the configuration of your desktop windows and screens in their exact display position and size. To create a profile you need to pull up your browser tabs in multiple browser windows. Arrange and resize them as per your work preference and once you’re done making the arrangement save that configuration in your profile. 
+
+To Save a Work Session
+Right-Click on the SmartWindows icon.
+Select ‘Create Profile’ 
+Click on the ‘save’ button
+And just like that, your entire screen set-up will be saved, which you can restore any time with one click.
+
+Create and Restore Multiple Browser Profiles
+SmartWindows empowers users to create and restore their multiple browser profiles. Instead of remembering a list of restoration steps for different browsers, you can save your browser tabs in a SmartWindows profile and can restore them on one or many screens.
+
+It supports multiple browsers like Google Chrome, Microsft Edge, and Mozilla Firefox enabling the user to use their favorite browsers. It maintains an active tab history and remembers the display size and position of your browser tabs; restoring them in the exact same manner. 
+
+Now you need not worry about saving your browser sessions and exercising manual labor in reopening the multiple browser tabs. SmartWindows restores your browser profiles in a single click.
+
+To Restore a Profile
+Right-click on the SmartWindows icon 
+Select ‘Restore Profile’ 
+Click on the profile you want to restore
+And just like that with a single click, you can restore your SmartWindows profile in its exact display position and size. 
+
+SmartWindows empowers you to reduce the manual labor and daily hassle of reopening the same browser tabs and provides you with an automatic solution for the restoration of your multiple browser windows.
+
+Save time and maximize your productivity using SmartWindows!

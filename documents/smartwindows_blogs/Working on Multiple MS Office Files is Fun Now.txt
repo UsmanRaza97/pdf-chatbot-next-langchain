@@ -1,0 +1,35 @@
+Whether it is a student or a teacher, a researcher or a project manager, a writer or an accounts officer, Microsoft Office files are used by everyone around the world. Millions of businesses rely on the MS Office suite to create documents and keep records. They use multiple applications of MS office files such as Microsoft Word, Excel, PowerPoint, Wordpad, Notepad, etc. on a daily basis. 
+
+This article addresses some common document management problems faced by MS Office users and discusses efficient use.
+
+Problems Faced by MS Office Users
+Maintenance of multiple sets of MS Office documents in separate repositories.
+Access to multiple MS Office files when you are working on many in parallel.
+To keep track of multiple words and excel documents of different projects in the same place.
+Excessive switching between multiple MS Office applications is very cumbersome.
+Open the MS Office files every day, arrange their window size and position on the screen every day is very time-consuming.
+When you are working on a bunch of different versions of the same file, it becomes hard to find the right file from the messy folders.
+Management of documents of different projects, work, home, or school-related tasks in one place is not easy.
+A sudden power outage or Windows updates might disturb the arrangement of your screen you set previously.
+All the stated problems affect your productivity at work. The tasks that used to take so much time on a regular basis need to be done in an efficient way. For this, you can employ some Microsoft Office tips and tricks or use high-end tools that help you with your daily MS Office tasks. SmartWindows is one productivity software that supports MS Office files and ensures enhanced productivity for users.
+
+Make Efficient Use of MS Office Files with SmartWindows
+SmartWindows is feature-packed productivity software that gives enhanced features to your Windows 10 and Windows 11 and allows you to work smart and not hard. It makes the use of MS Office for students and businesses very efficient. From MS Word to MS Powerpoint, and MS Project to MS Excel, SmartWindows gives you the following capabilities:
+
+Auto-arrange & Auto-restore MS Office Files
+If you are using MS Word or any other MS Office application on a regular basis, it takes a significant amount of time to open and arrange the files every day. To overcome this headache, SmartWindows allows you to auto-arrange and auto-restore all your MS Office files in one click!
+
+Open and arrange the apps and files on your Desktop screen. Adjust their window size and position on the screen according to your liking. Save the screen configuration in SmartWindows by creating a profile. You can restore the screen with the same MS Office files at exactly the same position on the screen with the same window size. With this, you do not need to arrange the screen every time you start the work and SmartWindows does this for you.
+
+This capability of SmartWindows allows you to work on multiple MS Office files in parallel. It also reduces the excessive number of clicks in switching between the applications every now and then. 
+
+Open the MS Office Files
+When you are dealing with multiple MS Office files such as Word, Excel, Powerpoint, or Project all at once, you would have to open each the next day before work. SmartWindows eliminates this hassle and opens MS Word, MS Excel, and other files with just one click. You can open the recent files from there. Reduce the number of clicks and get more work done with SmartWindows in less time.
+
+File Management on Multiple Displays and Profiles 
+If you are working on multiple projects at the same time, or there are many other users of your PC who used to do homework or research on the same computer, it gets hard to manage data. SmartWindows allows you to create unlimited profiles and displays where you can separate different nature of tasks and projects. 
+
+A dedicated profile for each project or user will help you with efficient management of all the MS Office files. You can create separate folders for work in each profile, use browsers with devoted email accounts, and can access any file from a computer in the blink of an eye. Not only this, SmartWindows gives apps’ restoration support to all the profiles and displays. With just one click, you can restore all customized presets on your desktop screen.
+
+Increased Productivity at Work
+SmartWindows serves the ultimate purpose of increasing the productivity of the users of Windows. Its support for MS Office files gives you more hands at work. It allows you to do the regular tasks automatically instead of investing your precious time in finding and arranging the word and excel files every time you start the work. SmartWindows saves your time by making your Windows smarter!

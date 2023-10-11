@@ -1,0 +1,25 @@
+Windows 11 comes up with a slew of updates and features. It may be known better for the UI improvements but the new Snap Layouts and Snap Groups feature is in full swing to provide you with better productivity. It is a major UI innovation that allows Windows users to organize their desktop screen and multitask in a very efficient manner.
+
+After tiresome steps of manually arranging each app on the desktop to multitask in Windows 10, now this upgraded OS takes multitasking to a whole next level with Snap Layouts. 
+
+What are Snap Layouts?
+Snap Layouts is a new feature introduced in Windows 11 that allows you to organize the apps and windows in a better way by grouping them. The available options of layouts depending on the screen dimensions. On a standard screen display, you will get 4 layout options to choose from whereas, on an ultra-wide display screen, you get 6 layout options. Selecting one and adjusting apps into each section, Snap Layouts split screen into partitions based on the layout you have chosen.
+
+Say you are working on some research, and have a group of browser windows or apps opened all related to your work. You can group windows by applications using Snap Layouts to cleanly organize all the apps on your screen to keep all information in one place. A visually clean interface would help you seamlessly grasp the information and collect chunks from each window to complete your research work. 
+
+Snap Layouts help you create your customized work zones. Similar to the research example, a project manager could organize all apps to make lookup easy and eliminate the excessive switching between the apps. A student can read, watch, and write at the same time. You can also create a preset of all entertainment apps and activities when in the mood for gaming. In short, Snap Layouts have made multitasking easy for Windows users.
+
+How do Snap Layouts Work?
+To get started with Snap Layouts, all you need to do is hover the mouse over the Maximize icon of the app’s window at the upper-right corner. Doing this, you will find options of layouts available to you based on your screen size and dimension. Now select the one that you find more suitable according to work needs. You can also tap on the slot where you want to adjust your current program window. On tapping, you will see a complete layout on your desktop screen with all other spots that you can fill with other apps you have opened. 
+
+You will see all the opened apps to fill the placeholders. Now select and put apps in each vacant space. Note that in Windows 10, snapping windows allows you to resize the window size of the app according to work preferences. Whereas in Windows 11, you are supposed to adjust the apps in a given layout and cannot change the size or overlap them. 
+
+This layout app for PC is built-in that eliminates the need of manually sizing the apps. With layouts available, you can just select and fit the apps in space for efficient multitasking. The Windows Snap feature populates the apps to make it easy for you to access information from multiple apps easily. You can view each app in the taskbar, and the whole windows groups in layout form as well in the taskbar. 
+
+Keep it Tidy with Snap Layouts!
+A handful of new features in Windows 11 have productivity and multitasking as a major focus. Snap Layout keeps Windows tidy. You can open and organize the apps according to your taste. Easy access to all the information makes it easy for you to grasp it and get the job done earlier. Multiple layouts for Windows help you arrange apps in slots based on the ease of access, reading, or writing. Windows snapping groups all the apps and keep your desktop screen tidy enough to multitask in an easy manner. In this way, you can create multiple work zones, gaming zones, study zones, entertainment zones, and another desktop presets. 
+
+Smart Layouts & Snap Layouts 
+Smart Layouts by SmartWindows empower the use of Snap Layouts by giving them the capability to auto-restore in Windows 10 and 11.
+
+Smart Layouts save the screen configuration and auto-arranges the apps on one or many screens. It fully supports all desktop apps, MS Office files, and browsers. Smart Layouts keep the display position, window size of each app, browser tabs and URLs saved. With one click you can auto-arrange the apps and windows on multiple displays. Enhance the use of Snap Layouts by giving them the ability to auto-arrange apps effortlessly when you start up your PC. It saves time opening and arranging apps every time before getting started to work. Be more productive at work with SmartWindows! 
