@@ -14,8 +14,7 @@ export async function POST(req: NextRequest) {
   })
 
   const text = await queryPineconeVectorStoreAndQueryLLM(client, indexName, body)
-console.log('is here?',text)
-// return {}
+  
    return NextResponse.json({
     data: text
   })

@@ -12,7 +12,6 @@ export const queryPineconeVectorStoreAndQueryLLM = async (
   question
 ) => {
   prevQuest=question
-  console.log(`q>>>`,prevQuest)
   // 1. Start query process
   console.log('Querying Pinecone vector store...');
   // 2. Retrieve the Pinecone index

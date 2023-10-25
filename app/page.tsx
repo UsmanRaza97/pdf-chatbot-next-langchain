@@ -18,7 +18,6 @@ export default function Home() {
         method: "POST"
       })
       const json = await result.json()
-      console.log('result: ', json)
     } catch (err) {
       console.log('err:', err)
     }
@@ -43,7 +42,6 @@ export default function Home() {
       setLoading(false)
     }
   }
-  console.log('text>>',input)
   return (
     <main className="flex flex-col items-center justify-between p-24">
       {/* <input className='text-black px-2 py-1' onChange={e => setQuery(e.target.value)} />
