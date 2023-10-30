@@ -58,7 +58,7 @@ export default function Home() {
       <ChatList messages={result} />
           <ChatPanel
         id={'1'}
-        isLoading={false}
+        isLoading={loading}
         // stop={false}
         // append={append}
         reload={false}

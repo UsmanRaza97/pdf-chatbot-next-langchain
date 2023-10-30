@@ -1,23 +1,26 @@
 import { OpenAIEmbeddings } from 'langchain/embeddings/openai'
 import { RecursiveCharacterTextSplitter } from 'langchain/text_splitter'
 import { OpenAI } from 'langchain/llms/openai'
-import { loadQAStuffChain } from 'langchain/chains'
+import { ConversationalRetrievalQAChain, RetrievalQAChain, loadQAStuffChain } from 'langchain/chains'
 import { Document } from 'langchain/document'
 import { timeout } from './config'
+import {PineconeStore} from "langchain/vectorstores/pinecone";
+import { PromptTemplate } from "langchain/prompts";
 
 let prevQuest = []
+// Ask questions suitable to Smart Windows like, Which OS you use? How many screens you use? Did you need it for work or gaming?`
 export const queryPineconeVectorStoreAndQueryLLM = async (
   client,
   indexName,
   question
 ) => {
-  prevQuest=question
+ 
   // 1. Start query process
   console.log('Querying Pinecone vector store...');
   // 2. Retrieve the Pinecone index
   const index = client.Index(indexName);
   // 3. Create query embedding
-  const queryEmbedding = await new OpenAIEmbeddings().embedQuery(`${prevQuest} ${question}`)
+  const queryEmbedding = await new OpenAIEmbeddings().embedQuery(question)
   // 4. Query Pinecone index and return top 10 matches
   let queryResponse = await index.query({
     queryRequest: {
@@ -27,6 +30,7 @@ export const queryPineconeVectorStoreAndQueryLLM = async (
       includeValues: true,
     },
   });
+  prevQuest=question
   // 5. Log the number of matches 
   console.log(`Found ${queryResponse.matches.length} matches...`);
   // 6. Log the question being asked
@@ -34,18 +38,54 @@ export const queryPineconeVectorStoreAndQueryLLM = async (
   if (queryResponse.matches.length) {
     // 7. Create an OpenAI instance and load the QAStuffChain
     const llm = new OpenAI({});
-    const chain = loadQAStuffChain(llm);
+    // const chain = loadQAStuffChain(llm);
+    // const conversationalChain = new ConversationalRetrievalQAChain(chain);
+
     // 8. Extract and concatenate page content from matched documents
     const concatenatedPageContent = queryResponse.matches
       .map((match) => match.metadata.pageContent)
       .join(" ");
+
+      
+      const template = `Behave like a real person named John and sell Smart Windows. If you don't know anything, Simply ask apology.
+      Use the following pieces of context to answer the question at the end
+      ${concatenatedPageContent}
+      Question: ${question}
+      Find answer and always List down all of its uses, characteristics, payment plans etc
+      Helpful Answer:`;
+
+
+const QA_CHAIN_PROMPT = new PromptTemplate({
+  inputVariables: [],
+  template,
+});
+
+
+
+const vectorStore = await PineconeStore.fromExistingIndex(
+  new OpenAIEmbeddings({}),
+  {
+      pineconeIndex: index,
+      textKey: 'text',
+  },
+);
+const retriever = vectorStore.asRetriever();
+
+const chain = new RetrievalQAChain({
+  combineDocumentsChain: loadQAStuffChain(llm, { prompt: QA_CHAIN_PROMPT }),
+  retriever,
+  returnSourceDocuments: true,
+  inputKey: "question",
+});
     // 9. Execute the chain with input documents and question
-    const result = await chain.call({
-      input_documents: [new Document({ pageContent: concatenatedPageContent })],
-      question: question,
-    });
+    // const result = await chain.call({
+    //   input_documents: [new Document({ pageContent: concatenatedPageContent })],
+    //   question: `${initPrompt}`,
+    // });
     // 10. Log the answer
-    console.log(`Answer: ${result.text}`);
+    const result = await chain.call({
+      question,
+    });
     return result.text
   } else {
     // 11. Log that there are no matches, so GPT-3 will not be queried

@@ -20,10 +20,11 @@ export function ChatMessage({ message, ...props }: ChatMessageProps) {
     >
       <div
         className={cn(
-          'flex h-8 w-8 shrink-0 select-none items-center justify-center rounded-md border shadow',
+          'flex h-8 w-8 shrink-0 select-none items-center justify-center ',
           message.role === 'user'
-            ? 'bg-background'
-            : 'bg-primary text-primary-foreground'
+            ? 'bg-background rounded-md border shadow'
+            : ''
+            // : 'bg-primary text-primary-foreground'
         )}
       >
         {message.role === 'user' ? <IconUser /> : <IconOpenAI />}
