@@ -52,7 +52,7 @@ export default function Home() {
     }
   }
   return (
-    <main ref={chatContainerRef} className="flex flex-col items-center justify-between p-24 h-96 overflow-y-auto">
+    <main ref={chatContainerRef} className="flex flex-col items-center justify-between p-24 h-screen overflow-y-auto">
       {/* consider removing this button from the UI once the embeddings are created ... */}
       {/* <button onClick={createIndexAndEmbeddings}>Create index and embeddings</button> */}
 
