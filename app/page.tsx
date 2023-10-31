@@ -1,7 +1,8 @@
 "use client";
+import { useLayoutEffect, useRef, useState } from "react";
 import { ChatList } from "@/components/chat-list";
 import { ChatPanel } from "@/components/chat-panel";
-import { useLayoutEffect, useRef, useState } from "react";
+import { Toast } from "@/components/ui/toast";
 
 export default function Home() {
   const chatContainerRef = useRef<HTMLDivElement>(null);
@@ -11,7 +12,9 @@ export default function Home() {
   >([]);
   const [loading, setLoading] = useState(false);
   const [input, setInput] = useState("");
+  const [errors, setErrors] = useState('')
 
+  
   useLayoutEffect(() => {
     if (chatContainerRef.current) {
       chatContainerRef.current.scrollTo({
@@ -41,6 +44,11 @@ export default function Home() {
         method: "POST",
         body: JSON.stringify(input),
       });
+      if (!res.ok) {
+        setErrors(res?.statusText ?? 'Something went wrong')
+        setTimeout(()=>setErrors(''),5000)
+        throw new Error(`HTTP error! status: ${res.status}`);
+      }
       const json = await res.json();
       const prevResults = [...result];
       prevResults.push({ role: "user", content: input });
@@ -68,6 +76,7 @@ export default function Home() {
         setInput={setInput}
         onSubmit={sendQuery}
       />
+      {errors.length ? <Toast/>:null}
     </main>
   );
 }
