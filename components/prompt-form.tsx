@@ -3,7 +3,7 @@ import * as React from 'react'
 import Textarea from 'react-textarea-autosize'
 
 import { Button } from '@/components/ui/button'
-import { IconArrowElbow } from '@/components/ui/icons'
+import { IconArrowElbow, Loader } from '@/components/ui/icons'
 import {
   Tooltip,
   TooltipContent,
@@ -67,7 +67,7 @@ export function PromptForm({
                 size="icon"
                 disabled={isLoading || input === ''}
               >
-                <IconArrowElbow />
+               {isLoading ?  <Loader /> : <IconArrowElbow/>} 
                 <span className="sr-only">Send message</span>
               </Button>
             </TooltipTrigger>

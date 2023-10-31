@@ -127,6 +127,45 @@ function IconChevronUpDown({
   );
 }
 
+function Loader(){
+  return <svg
+  xmlns="http://www.w3.org/2000/svg"
+  className="margin:auto; background: none; display: block; shape-rendering: auto;"
+  width="200px"
+  height="200px"
+  viewBox="0 0 100 100"
+  preserveAspectRatio="xMidYMid"
+  display="block"
+>
+  <g transform="translate(50,50)">
+    <g transform="scale(0.4)">
+      <circle cx="0" cy="0" r="40" fill="#FFFFFF" fillOpacity="1">
+        <animateTransform
+          attributeName="transform"
+          type="scale"
+          repeatCount="indefinite"
+          dur="0.6s"
+          values="1.5 1.5;1 1;1.5 1.5"
+          keyTimes="0;0.5;1"
+        ></animateTransform>
+      </circle>
+      <circle cx="0" cy="0" r="40" fill="#FFFFFF" fillOpacity="0.7">
+        <animateTransform
+          attributeName="transform"
+          type="translate"
+          repeatCount="indefinite"
+          dur="0.6s"
+          values="0 0;0 20;0 0"
+          keyTimes="0;0.5;1"
+        ></animateTransform>
+      </circle>
+    </g>
+  </g>
+</svg>;
+
+
+}
+
 export {
   IconOpenAI,
   IconArrowDown,
@@ -137,4 +176,5 @@ export {
   IconCheck,
   IconClose,
   IconChevronUpDown,
+  Loader
 };
