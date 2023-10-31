@@ -3,6 +3,7 @@ import { useLayoutEffect, useRef, useState } from "react";
 import { ChatList } from "@/components/chat-list";
 import { ChatPanel } from "@/components/chat-panel";
 import { Toast } from "@/components/ui/toast";
+import { Chips } from "@/components/ui/chips";
 
 export default function Home() {
   const chatContainerRef = useRef<HTMLDivElement>(null);
@@ -12,14 +13,13 @@ export default function Home() {
   >([]);
   const [loading, setLoading] = useState(false);
   const [input, setInput] = useState("");
-  const [errors, setErrors] = useState('')
+  const [errors, setErrors] = useState("");
 
-  
   useLayoutEffect(() => {
     if (chatContainerRef.current) {
       chatContainerRef.current.scrollTo({
         top: chatContainerRef.current.scrollHeight,
-        behavior: 'smooth',
+        behavior: "smooth",
       });
     }
   }, [result]);
@@ -35,23 +35,23 @@ export default function Home() {
     }
   }
 
-  async function sendQuery() {
-    if (!input) return;
-    setResult((prev) => [...prev, { content: input, role: "user" }]);
+  async function sendQuery(query?:string) {
+    if (!query && !input) return;
+    setResult((prev) => [...prev, { content: query ?? input, role: "user" }]);
     setLoading(true);
     try {
       const res = await fetch("/api/read", {
         method: "POST",
-        body: JSON.stringify(input),
+        body: JSON.stringify(query ?? input),
       });
       if (!res.ok) {
-        setErrors(res?.statusText ?? 'Something went wrong')
-        setTimeout(()=>setErrors(''),5000)
+        setErrors(res?.statusText ?? "Something went wrong");
+        setTimeout(() => setErrors(""), 5000);
         throw new Error(`HTTP error! status: ${res.status}`);
       }
       const json = await res.json();
       const prevResults = [...result];
-      prevResults.push({ role: "user", content: input });
+      prevResults.push({ role: "user", content: query ?? input });
       setResult([...prevResults, { role: "assistant", content: json.data }]);
       setLoading(false);
     } catch (err) {
@@ -60,11 +60,15 @@ export default function Home() {
     }
   }
   return (
-    <main ref={chatContainerRef} className="flex flex-col items-center justify-between p-24 h-screen overflow-y-auto">
+    <main
+      ref={chatContainerRef}
+      className="flex flex-col items-center justify-between p-24 h-screen overflow-y-auto"
+    >
       {/* consider removing this button from the UI once the embeddings are created ... */}
       {/* <button onClick={createIndexAndEmbeddings}>Create index and embeddings</button> */}
 
       <ChatList messages={result} />
+      
       <ChatPanel
         id={"1"}
         isLoading={loading}
@@ -75,8 +79,9 @@ export default function Home() {
         input={input}
         setInput={setInput}
         onSubmit={sendQuery}
+        handleChip={(text)=>sendQuery(text)}
       />
-      {errors.length ? <Toast/>:null}
+      {errors.length ? <Toast /> : null}
     </main>
   );
 }
